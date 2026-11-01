@@ -1,0 +1,95 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color:azure;
+    color: #222222;
+}
+header {
+    background-color: steelblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+}
+.hero {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 35px;
+}
+.button {
+    display: inline-block;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.card-container {
+    background-color: white;
+    display: flex;
+    gap: 15px;
+}
+.card {
+    background-color: lightskyblue;
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid #cccccc;
+    width: 33%;
+}
+.card a {
+    color: steelblue;
+}
+form {
+    background-color: white;
+    padding: 20px;
+    max-width: 450px;
+    border: 1px solid #cccccc;
+}
+input, textarea {
+    padding: 8px;
+    width: 95%;
+}
+input[type="submit"] {
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #dceaf7;
+}
+.note, .notice {
+    background-color: #fff4d6;
+    padding: 10px;
+}
+footer {
+    background-color:white;
+    color: steelblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
